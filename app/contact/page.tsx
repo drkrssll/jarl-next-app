@@ -3,10 +3,10 @@ import Header from "../components/Header";
 
 const ContactPage = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-50 to-gray-200 min-h-screen">
+    <div className="bg-gray-200 min-h-screen">
       <Header />
 
-      <main className="px-6 min-h-screen flex flex-col items-center justify-center bg-white">
+      <main className="px-6 min-h-screen flex flex-col items-center justify-center">
         <div className="relative px-6 text-center">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-purple-100 opacity-50 -z-10"></div>
           <div className="max-w-4xl mx-auto">
