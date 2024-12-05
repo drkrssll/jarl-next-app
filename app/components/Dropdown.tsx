@@ -1,5 +1,6 @@
 "use client";
 
+import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -12,7 +13,7 @@ const Dropdown = () => {
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
         className="flex items-center bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
       >
-        Menu
+        <ChevronDown />
       </button>
       {isDropdownOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg border">
@@ -22,20 +23,14 @@ const Dropdown = () => {
                 Home
               </Link>
             </li>
-
             <li className="px-4 py-2 hover:bg-gray-100">
-              <Link href="/cart" className="block w-full h-full">
-                Cart
+              <Link href="/board" className="block w-full h-full">
+                Project Board
               </Link>
             </li>
             <li className="px-4 py-2 hover:bg-gray-100">
               <Link href="/contact" className="block w-full h-full">
                 Contact
-              </Link>
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-100">
-              <Link href="/board" className="block w-full h-full">
-                Project Board
               </Link>
             </li>
           </ul>

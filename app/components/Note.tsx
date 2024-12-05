@@ -11,7 +11,7 @@ interface PostItNoteProps {
 const PostItNote: React.FC<PostItNoteProps> = ({
   children,
   color = 'bg-yellow-100',
-  rotation = '-rotate-6',
+  rotation = '',
   className = ''
 }) => {
   return (
