@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { CameraIcon, MailIcon } from "lucide-react";
 import Header from "../components/Header";
 
 const ContactPage = () => {
@@ -18,9 +18,11 @@ const ContactPage = () => {
             </p>
             <div className="flex justify-center space-x-4">
               <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center space-x-2 shadow-lg">
-                Instagram <ArrowRight className="ml-2" />
+                <CameraIcon className="w-6 h-6 mr-2" />
+                Instagram
               </button>
               <button className="bg-white text-blue-600 px-8 py-3 rounded-full border border-blue-200 hover:bg-blue-50 transition-colors flex items-center space-x-2 shadow-md">
+                <MailIcon className="w-6 h-6 mr-2" />
                 Email
               </button>
             </div>

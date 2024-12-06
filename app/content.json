@@ -2,95 +2,67 @@
   "contentBoxes": [
     {
       "image": "https://utfs.io/f/XXzsu4xO0GexnWQKyrLLNqT6xi4kcdGIP5h1VlFbWA9HuMC3",
-      "title": "Placeholder",
-      "description": "Placeholder",
+      "title": "Placeholder 1",
+      "description": "Short description",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "image": "https://utfs.io/f/XXzsu4xO0GexnWQKyrLLNqT6xi4kcdGIP5h1VlFbWA9HuMC3",
-      "title": "Placeholder",
-      "description": "Placeholder",
+      "title": "Placeholder 2",
+      "description": "Short description",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "image": "https://utfs.io/f/XXzsu4xO0GexnWQKyrLLNqT6xi4kcdGIP5h1VlFbWA9HuMC3",
-      "title": "Placeholder",
-      "description": "Placeholder",
+      "title": "Placeholder 3",
+      "description": "Short description",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "image": "https://utfs.io/f/XXzsu4xO0GexnWQKyrLLNqT6xi4kcdGIP5h1VlFbWA9HuMC3",
-      "title": "Placeholder",
-      "description": "Placeholder",
+      "title": "Placeholder 4",
+      "description": "Short description",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "image": "https://utfs.io/f/XXzsu4xO0GexnWQKyrLLNqT6xi4kcdGIP5h1VlFbWA9HuMC3",
-      "title": "Placeholder",
-      "description": "Placeholder",
+      "title": "Placeholder 5",
+      "description": "Short description",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "image": "https://utfs.io/f/XXzsu4xO0GexnWQKyrLLNqT6xi4kcdGIP5h1VlFbWA9HuMC3",
-      "title": "Placeholder",
+      "title": "Placeholder 6",
       "description": "Placeholder",
+      "description": "Short description",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
-    }
-  ],
-
-  "scrollCards": [
-    {
-      "title": "Card 1",
-      "description": "Card description"
-    },
-    {
-      "title": "Card 2",
-      "description": "Card description"
-    },
-    {
-      "title": "Card 3",
-      "description": "Card description"
-    },
-    {
-      "title": "Card 4",
-      "description": "Card description"
-    },
-    {
-      "title": "Card 5",
-      "description": "Card description"
     }
   ],
 
   "postItNotes": [
     {
       "title": "Title",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-      "rotation": "-rotate-3"
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "title": "Title",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-      "rotation": "rotate-2"
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "title": "Title",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-      "rotation": "-rotate-1"
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "title": "Title",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-      "rotation": "rotate-3"
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "title": "Title",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-      "rotation": "-rotate-2"
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     },
     {
       "title": "Title",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.",
-      "rotation": "rotate-1"
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam."
     }
   ]
 }

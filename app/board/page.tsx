@@ -7,30 +7,40 @@ const Board = () => {
     <div className="bg-gray-200 min-h-screen">
       <Header />
 
-      <main className="pt-24 pb-8 px-6 min-h-screen flex items-center justify-center">
+      <div className="pt-24">
+        <button
+          className="bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300 transition-all duration-300 mx-auto block"
+        >
+          <a
+            href="mailto:example@example.com"
+            className="text-white"
+          >
+            Send your project idea
+          </a>
+        </button>
+      </div>
+      <main className="pb-8 px-6 min-h-screen flex items-center justify-center">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center place-content-center w-full max-w-5xl">
-          {JSON.postItNotes.map((note, index) => (
-            <PostItNote key={index} className={note.rotation}>
-              <h2 className="text-xl">{note.title}</h2>
-              <p>{note.content}</p>
-            </PostItNote>
-          ))}
+          {JSON.postItNotes.map((note, index) => {
+            const rotation = (Math.random() * 6 - 3).toFixed(1);
+            const translateX = (Math.random() * 20 - 10).toFixed(1);
+            const translateY = (Math.random() * 20 - 10).toFixed(1);
+
+            return (
+              <PostItNote
+                key={index}
+                style={{
+                  transform: `rotate(${rotation}deg) 
+                       translate(${translateX}px, ${translateY}px)`
+                }}
+              >
+                <h2 className="text-xl">{note.title}</h2>
+                <p>{note.body}</p>
+              </PostItNote>
+            );
+          })}
         </div>
       </main>
-
-      <div className="bg-blue-500 text-white py-16 px-6 text-center">
-        <h2 className="text-4xl font-bold mb-6">
-          Want to be included on the project board?
-        </h2>
-        <p className="text-xl max-w-2xl mx-auto mb-10 text-blue-100">
-          Reach out to us with a title and description of your project to be included.
-        </p>
-        <div className="flex justify-center space-x-4">
-          <button className="bg-white text-blue-600 px-10 py-4 rounded-full font-semibold hover:bg-blue-50 transition-colors shadow-lg">
-            Start Your Journey
-          </button>
-        </div>
-      </div>
 
     </div>
   );

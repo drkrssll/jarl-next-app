@@ -1,16 +1,19 @@
+"use client"
+
 import { motion } from 'framer-motion';
 import JSON from '../content.json';
+import { useRouter } from 'next/navigation';
 
 interface CardData {
   title: string;
   description: string;
 }
 
-// Sample card data (you can replace this with your own data)
-const scrollCards: CardData[] = JSON.scrollCards;
+const scrollCards: CardData[] = JSON.contentBoxes;
 
-const ScrollingCardBar: React.FC = () => {
+const ScrollBar: React.FC = () => {
   const duplicatedCards = [...scrollCards, ...scrollCards, ...scrollCards];
+  const router = useRouter();
 
   return (
     <div className="pt-4 w-full overflow-hidden">
@@ -36,7 +39,8 @@ const ScrollingCardBar: React.FC = () => {
           {duplicatedCards.map((card, index) => (
             <div
               key={index}
-              className="w-48 border border-blue-500 h-24 bg-white shadow-md rounded-lg p-4 flex-shrink-0"
+              onClick={() => router.push(`/content/${index % scrollCards.length}`)}
+              className="w-48 hover:border border-blue-600 cursor-pointer shadow-xl h-24 bg-white shadow-md rounded-lg p-4 flex-shrink-0"
             >
               <h3 className="font-bold text-gray-600 text-lg">{card.title}</h3>
               <p className="text-sm text-gray-600">{card.description}</p>
@@ -47,5 +51,6 @@ const ScrollingCardBar: React.FC = () => {
     </div>
   );
 };
-export default ScrollingCardBar;
+
+export default ScrollBar;
 
