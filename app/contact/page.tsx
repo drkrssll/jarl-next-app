@@ -1,7 +1,17 @@
+"use client"
+
 import { CameraIcon, MailIcon } from "lucide-react";
 import Header from "../components/Header";
 
 const ContactPage = () => {
+  const handleInstagramClick = () => {
+    window.open('https://www.instagram.com/iwishiwasgreat', '_blank');
+  };
+
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:example@example.com';
+  };
+
   return (
     <div className="bg-gray-200 min-h-screen">
       <Header />
@@ -17,15 +27,20 @@ const ContactPage = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id risus ut nulla eleifend convallis. Nulla facilisi. Curabitur vehicula, risus vel aliquet aliquam, odio justo varius dolor, at congue odio sem eget ligula.
             </p>
             <div className="flex justify-center space-x-4">
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center space-x-2 shadow-lg">
+              <button
+                onClick={handleInstagramClick}
+                className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors flex items-center space-x-2 shadow-lg"
+              >
                 <CameraIcon className="w-6 h-6 mr-2" />
                 Instagram
               </button>
-              <button className="bg-white text-blue-600 px-8 py-3 rounded-full border border-blue-200 hover:bg-blue-50 transition-colors flex items-center space-x-2 shadow-md">
+              <button
+                onClick={handleEmailClick}
+                className="bg-white text-blue-600 px-8 py-3 rounded-full border border-blue-200 hover:bg-blue-50 transition-colors flex items-center space-x-2 shadow-md"
+              >
                 <MailIcon className="w-6 h-6 mr-2" />
                 Email
-              </button>
-            </div>
+              </button>            </div>
           </div>
         </div>
 

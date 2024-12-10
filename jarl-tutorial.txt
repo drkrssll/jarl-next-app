@@ -1,0 +1,22 @@
+This is a Next.js app, so it's pretty simple to get it up and running.
+
+First you'll need to make a github account. This is pretty self explanatory, so I won't go into it here.
+
+Github accounts allow you to remain anonymous, so you can use a fake name and what not.
+
+Once you have a github account, you need to fork this repository. This will create a copy of the repository in your own account.
+
+Here is the Github link:
+https://github.com/drkrssll/jarl-next-app
+
+The fork button will be near the top right of the page.
+
+Once you have forked the repository, let me know so I can make the original repository private again.
+
+Then, you can follow this short youtube video to get the app up and running on Vercel:
+https://www.youtube.com/watch?v=Hqfruot1nOI
+
+The command used at 30 seconds in the video is:
+npm install --legacy-peer-deps
+
+THIS IS IMPORTANT. If you don't use the --legacy-peer-deps flag, the build will fail.
