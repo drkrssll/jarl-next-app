@@ -5,8 +5,11 @@ import Header from "./components/Header";
 import JSON from "./content.json";
 import Link from "next/link";
 import { ContentBox } from "./types/content";
+import { useState } from "react";
 
 const HomePage = () => {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
   return (
     <div className="bg-gray-200 min-h-screen">
       <Header />
@@ -19,31 +22,26 @@ const HomePage = () => {
                 key={index}
                 href={`/content/${index}`}
                 className="border-2 hover:border-blue-500 bg-white rounded-xl shadow-xl transform transition-all duration-300 hover:-translate-y-4 hover:shadow-2xl p-6"
-
               >
-                <div className="flex justify-center mb-6">
+                <div
+                  className="flex justify-center"
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                >
                   <Image
-                    src={content.image}
+                    src={hoveredIndex === index ? content.gif : content.image}
                     width={400}
-                    height={300}
+                    height={600}
                     alt={content.title}
                     className="rounded-lg w-full h-64 object-cover"
                   />
-                </div>
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-gray-800 mb-3">
-                    {content.title}
-                  </h3>
-                  <p className="text-gray-600 text-base">
-                    {content.description}
-                  </p>
                 </div>
               </Link>
             ))}
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

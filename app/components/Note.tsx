@@ -1,11 +1,4 @@
-import { CSSProperties, ReactNode } from "react";
-
-interface PostItNoteProps {
-  children?: ReactNode;
-  color?: string;
-  style?: CSSProperties; // Correct type for inline styles
-  className?: string;
-}
+import { PostItNoteProps } from "../types/content";
 
 const PostItNote: React.FC<PostItNoteProps> = ({
   children,

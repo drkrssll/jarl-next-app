@@ -4,11 +4,10 @@ import JSON from '@/app/content.json';
 import Header from '@/app/components/Header';
 import ScrollBar from '@/app/components/ScrollBar';
 
-interface ContentPageProps {
-  params: { id: string };
-}
+type ContentPageProps = Promise<{ id: string }>;
 
-export default function ContentPage({ params }: ContentPageProps) {
+export default async function ContentPage(props: { params: ContentPageProps }) {
+  const params = await props.params;
   const id = parseInt(params.id, 10);
 
   if (isNaN(id) || id < 0 || id >= JSON.contentBoxes.length) {
@@ -22,7 +21,7 @@ export default function ContentPage({ params }: ContentPageProps) {
       <Header />
       <div className="flex-grow flex flex-col items-center justify-center pt-24 px-4">
         <div className="w-full max-w-2xl space-y-6">
-          <div className="mb-6 shadow-lg relative w-full max-w-2xl mx-auto h-[400px]"> {/* Adjust height as needed */}
+          <div className="mb-6 shadow-lg relative w-full max-w-2xl mx-auto h-[400px]">
             <Image
               src={content.image}
               alt={content.title}

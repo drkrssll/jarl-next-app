@@ -3,11 +3,7 @@
 import { motion } from 'framer-motion';
 import JSON from '../content.json';
 import { useRouter } from 'next/navigation';
-
-interface CardData {
-  title: string;
-  description: string;
-}
+import { CardData } from '../types/content';
 
 const scrollCards: CardData[] = JSON.contentBoxes;
 
