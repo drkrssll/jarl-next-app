@@ -24,7 +24,7 @@ const ContactPage = () => {
               Contact Me
             </h1>
             <p className="text-xl text-gray-700 max-w-2xl mx-auto mb-10 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id risus ut nulla eleifend convallis. Nulla facilisi. Curabitur vehicula, risus vel aliquet aliquam, odio justo varius dolor, at congue odio sem eget ligula.
+              Consectetur adipiscing elit. Phasellus id risus ut nulla eleifend convallis. Nulla facilisi. Curabitur vehicula, risus vel aliquet aliquam, odio justo varius dolor, at congue odio sem eget ligula.
             </p>
             <div className="flex justify-center space-x-4">
               <button
